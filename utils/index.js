@@ -17,6 +17,7 @@
 const fs = require('fs')
 const inquirer = require('inquirer');
 const markdown = require('./generateMarkdown')
+console.log(markdown);
 
 // TODO: Create an array of questions for user input
 inquirer
@@ -75,8 +76,9 @@ inquirer
     /* Pass your questions in here */
   ])
   .then((data) => {
-    console.log(data);
-    fs.writeFile('sampleREADME.md', markdown)
+  
+    fs.writeFile('sampleREADME.md', (markdown).toString(),(err) =>
+    err ? console.log(err) : console.log('Success!'))
     // Use user feedback for... whatever!!
   });
   
