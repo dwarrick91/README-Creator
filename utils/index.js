@@ -24,44 +24,59 @@ inquirer
      {
       type: 'input',
       message: 'What is your title of your project?',
-      name: 'Title',
+      name: 'title',
     },
     {
       type: 'input',
       message: 'What is the description of your project?',
-      name: 'Description',
+      name: 'description',
     },
     {
       type: 'input',
       message: 'Installation instructions',
-      name: 'Installation',
+      name: 'installation',
     },
     {
       type: 'input',
       message: 'How do you use your project?',
-      name: 'Usage',
+      name: 'usage',
     },
     {
       type: 'input',
       message: 'contribution guidelines',
-      name: 'Contribution',
+      name: 'contribution',
     },
     {
       type: 'input',
       message: 'test instructions',
-      name: 'Test',
+      name: 'test',
     },
     {
       type: 'list',
       message: 'test instructions',
-      name: 'License',
+      name: 'license',
       choices: [' Apache License 2.0',  'GNU GPLv3',  'MIT', 'ISC'] 
     },
+    {
+      type: 'input',
+      message: 'GitHub Username',
+      name: 'username',
+     
+    },
+    {
+      type: 'input',
+      message: 'Email Address',
+      name: 'email',
+     
+    },
+
+
     
     /* Pass your questions in here */
   ])
-  .then((answers) => {
-    console.log(answers);
+  .then((data) => {
+    console.log(data);
+    fs.writeFile('sampleREADME.md', markdown)
     // Use user feedback for... whatever!!
   });
   
