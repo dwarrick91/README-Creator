@@ -44,7 +44,7 @@ MIT License
 
 
  ## Questions
- GitHub username: https://github.com/dwarrick91
+ GitHub: https://github.com/dwarrick91
 
   Feel free to reach out to me with any questions at 
  dwarrick91@gmail.com
