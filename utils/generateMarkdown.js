@@ -77,7 +77,7 @@ function generateMarkdown(answers) {
  ## License
  ${renderLicenseLink(answers.license)}
  
-# This application is covered under the 
+ This application is covered under the 
 ${renderLicenseSection(answers.license)} License
  
  
@@ -94,9 +94,9 @@ ${renderLicenseSection(answers.license)} License
 
 
  ## Questions
- GitHub username: https://github.com/${answers.username}
+ GitHub: https://github.com/${answers.username}
 
- # Feel free to reach out to me with any questions at 
+  Feel free to reach out to me with any questions at 
  ${answers.email}
 `;
 }

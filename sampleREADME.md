@@ -1,8 +1,8 @@
- # kldjfs
-  ![answers.license](https://img.shields.io/badge/license-Apache%20License%202.0-green)
+ # README-Creator
+  ![answers.license](https://img.shields.io/badge/license-MIT-blue)
  ## Description
  
- jkldfsjl
+ To develop an app that allows the user to generate a markdown file to use with their applications.
  
  
  
@@ -21,30 +21,30 @@
  
  ## Usage
  
- ks
+ To simplify the  creation of  a README.md file to attach to other applications
  
  
  ## License
- https://www.apache.org/licenses/LICENSE-2.0.txt
+ https://www.mit.edu/~amini/LICENSE.md
  
-# This application is covered under the 
-Apache License 2.0 License
+ This application is covered under the 
+MIT License
  
  
  
  
  ## Contributing
 
- a
+ Please feel free to reach out to me by Email.
  
 
  
  ## Tests
- jsdlksdfjkdsfj
+ Currently no tests available
 
 
  ## Questions
- GitHub username: https://github.com/jkfds;
+ GitHub username: https://github.com/dwarrick91
 
- # Feel free to reach out to me with any questions at 
- kfjds
+  Feel free to reach out to me with any questions at 
+ dwarrick91@gmail.com
